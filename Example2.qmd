@@ -24,16 +24,6 @@ You can add options to executable code like this
 2 * 2
 ```
 
-```{r}
+The `echo: false` option disables the printing of code (only output is displayed).
 
-data("mtcars")
-
-boxplot(mtcars$hp ~ factor(mtcars$cyl), 
-        main = "Boxplot of HP by Cylinders", 
-        xlab = "Number of Cylinders", ylab = "Horse Power")
-
-
-
-```
-
-This boxplot has not outliers.
+I made a mistake here!!
