@@ -35,3 +35,5 @@ boxplot(mtcars$hp ~ factor(mtcars$cyl),
 
 
 ```
+
+This boxplot has not outliers.
